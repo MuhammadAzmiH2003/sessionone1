@@ -17,7 +17,7 @@ public class Bubblesort {
         int lenData = data.length;
         for (int i = 0; i<lenData;i++){
             for (int j=i+1;j<lenData;j++){
-                if (data[j+1].compareTo(this.data[j])>0){
+                if (this.data[j].compareTo(this.data[j])>0){
                     String temp = this.data[i];
                     this.data[i] = this.data[j];
                     this.data[j] = temp;
